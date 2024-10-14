@@ -1,0 +1,115 @@
+.login-wrapper {
+    background: #1C8EF9 !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-card {
+    width: 70%;
+    height: 550px !important; 
+}
+
+.login-left {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-right {
+    background-color: #3d5783;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-textbox {
+    height: 55px !important;
+    width: 420px !important; 
+    background-color: #e2dede !important;
+    border-radius: unset !important;
+    /* font-family:'FontAwesome'; */
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.signin-btn {
+    background-color: #3d5783 !important;
+    color: white !important;
+    width: 300px !important; 
+    height: 50px !important;
+    border-radius: 35px !important;
+    font-weight: bold !important;
+}
+
+.signup-btn {
+    background-color: #3d5783 !important;
+    color: white !important;
+    width: 300px !important; 
+    height: 50px !important;
+    border-radius: 35px !important;
+    font-weight: bold !important;
+    border: 1px solid white !important; 
+}
+
+.fpassword-link {
+    text-decoration: none;
+    color: #3d5783;
+    font-weight: 500;
+}
+
+.icon {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 1px;
+    background-color: #e2dede !important;
+    color: #818181;
+    min-width: 10px;
+    text-align: center;
+    line-height: 35px !important;
+  }
+
+  .p-icon {
+    width: 27px;
+  }
+
+  .header {
+    color: #3d5783;
+  }
+
+  .icon-div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 2px 1px gray;
+  }
+
+  .fb-icon {
+    color: blue;
+    font-size: 30px;
+    border: none !important;
+    transform: translateY(6px);
+  }
+
+  .gl-icon {
+    color: orange;
+    font-size: 30px;
+    border: none !important;
+    transform: translateY(6px);
+  }
+
+  .lin-icon {
+    color: #137ac6;
+    font-size: 30px;
+    border: none !important;
+    transform: translateY(6px);
+  }
+
+  .error-message {
+    display: flex;
+    color: red;
+  }
